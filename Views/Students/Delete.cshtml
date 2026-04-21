@@ -1,0 +1,13 @@
+@model StudentManagementSystem.Models.Student
+
+<h2>Delete Student</h2>
+
+<h4>Are you sure?</h4>
+
+<p>@Model.Name</p>
+<p>@Model.Course</p>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+</form>
