@@ -1,6 +1,7 @@
 
 using Microsoft.EntityFrameworkCore;
 using StudentManagementSystem.Data;
+//chedcing code by kk
 
 var builder = WebApplication.CreateBuilder(args);
 
