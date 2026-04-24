@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using StudentManagementSystem.Data;
 //chedcing code by kk
+///this is going to run in the azure
 
 var builder = WebApplication.CreateBuilder(args);
 
