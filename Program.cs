@@ -29,6 +29,7 @@ app.MapControllerRoute(
     pattern: "{controller=Students}/{action=Index}/{id?}");
 
 app.Run();
+//complete the code with the following content:by kk
 // using Microsoft.EntityFrameworkCore;
 // using StudentManagementSystem.Data;
 
