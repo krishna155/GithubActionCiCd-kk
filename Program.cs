@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using StudentManagementSystem.Data;
 //chedcing code by kk
 ///this is going to run in the azure
-
+///checking code by kk
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<AppDbContext>(options =>
